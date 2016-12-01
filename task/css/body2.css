@@ -1,0 +1,74 @@
+@charset "utf-8";
+body{margin:0px;padding:0px;border:0px;font-family:"微软雅黑"; font-size:14px;-webkit-font-smoothing:antialiased;font-smoothing:antialiased;background-color:#f9f7f8; min-width:1150px;}
+ul,li{list-style:none; margin:0px; padding:0px;}
+table,tr,td,h2,span,p,form,input,dl,dd,dt{margin:0px; padding:0px;}
+img{margin:0px;padding:0px; border:0px;}
+a{text-decoration:none; cursor:pointer;}
+a:hover{ text-decoration:none;}
+.auto{margin:0px auto;}
+.fl{float:left; display:inline;}
+.fr{float:right;display:inline;}
+.clear{ clear:both;}
+.auto{margin:0px auto;}
+.width{ width:1150px;}
+
+.esc{ width:72px; height:63px; position:fixed; bottom:152px; right:0px; z-index:999999; }
+
+.head-top{ height:30px; background:#323232; line-height:30px;color:#e3dfd5;}
+.head-top .head-top-l{ width:400px;color:#e3dfd5; overflow:hidden;}
+.head-top .head-top-l span{margin-left:13px;}
+.head-top .head-top-l span a{color:#c0bcb3;}
+.head-top .head-top-l span a:hover{color:#00a6ad;}
+.head-top .head-top-r{ width:19px; height:18px;cursor:pointer; padding:6px 0 6px 0; display:block;}
+.head-top .search{ width:200px; height:30px;line-height:30px;display:none;}
+.head-top .search-left{ width:170px; height:20px; margin-top:4px;line-height:20px; border:none; background:#837979; color:#fff; text-indent:10px; font-size:12px;}
+
+.head-top .search-right{width:19px; height:18px;padding:6px 0 6px 0;}
+.head-top .head-top-m{ width:400px; text-align:right;}
+.head-top .head-top-m span{padding-right:13px; margin-right:13px; height:30px; line-height:30px;color:#e3dfd5;}
+.head-top .head-top-m span a{height:30px; line-height:30px;color:#c0bcb3;}
+.head-top .head-top-m span a:hover{height:30px; line-height:30px;color:#00a6ad;}
+.head-top .head-top-m .en{ background: url(../png/top-en.png)  no-repeat right center;}
+.head-top .head-top-m .map{ background: url(../png/top-map.png)  no-repeat right center;}
+
+.head{ height:124px; background: url(../png/head-bg.gif) repeat-x;}
+.logo-box{width:1150px; margin:0 auto; height:90px;}
+.logo{ width:287px; height:67px; margin:12px 0 0 11px;}
+.logo-r{ width:500px; margin:34px 0px 0 0; height:20px; line-height:20px; font-size:14px; text-align:right; color:#fff;}
+.logo-r span{padding-left:54px; color:#fff;height:20px; line-height:20px;}
+.logo-r span a{color:#fff;height:20px; line-height:20px;}
+.logo-r span a:hover{color:#ffff00;height:20px; line-height:20px;}
+.logo-r .xs{ background:url(../png/icon-xuesheng.png) no-repeat 25px 1px;}
+.logo-r .jz{ background:url(../png/icon-jiaozhigong.png) no-repeat 32px 1px;}
+.logo-r .xy{ background:url(../png/icon-xiaoyou.png) no-repeat 27px 1px;}
+.logo-r .lf{ background:url(../png/icon-laifang.png) no-repeat 32px 1px;}
+
+.navbg {width:1150px; margin:0 auto; height:34px;}
+#navul li {FONT-SIZE:16px;WIDTH:104px; DISPLAY: block; HEIGHT: 34px;LINE-HEIGHT: 34px;float:left; text-align: center; font-weight:normal; position:relative; cursor:pointer;z-index:999;}
+#navul li a{color:#fff;}
+#navul li a:hover{color:#fff;}
+#navul li ul {list-style:none; z-index:909; width:1110px;position:absolute;display:none;top:34px; padding:20px;background:url(../png/nav-erji-bg.png) repeat; margin:0 auto;}
+ .nav-main0{left:-0px;}
+ .nav-main1{left:-104px;}
+ .nav-main2{left:-208px;}
+ .nav-main3{left:-312px;}
+ .nav-main4{left:-416px;}
+ .nav-main5{left:-520px;}
+ .nav-main6{left:-624px;}
+ .nav-main7{left:-728px;}
+ .nav-main8{left:-832px;}
+ .nav-main9{left:-936px;}
+ .nav-main10{left:-1040px;} 
+#navul li.navmoon { WIDTH:104px; DISPLAY: block; HEIGHT: 34px; LINE-HEIGHT: 34px; background-color:#ba0000; color:#fff;}
+#navul li.navmoon a {color:#ffff;}
+#navul li.navmoon .nav-erji{display:block; width:1110px; min-height:200px;}
+#navul li.navmoon .nav-left-list{ margin:10px 0 0 40px; width:440px;}
+
+#navul li.navmoon .nav-left-list .nav-li{ height:48px; line-height:48px; margin:0 5px; float:left; border-bottom:1px solid #c8cccd;display:inline; font-size:14px; background:url(../png/nav-list-left-list.png) no-repeat 5px center; padding-left:20px; text-align:left;}
+#navul li.navmoon .nav-left-list .nav-li1{width:120px;}
+#navul li.navmoon .nav-left-list .nav-li2{width:115px;}
+#navul li.navmoon .nav-left-list .nav-li3{width:170px;}
+#navul li.navmoon .nav-left-list .nav-li a{color:#5e605f;}
+#navul li.navmoon .nav-left-list .nav-li a:hover{ color:#f90000;}
+#navul li.navmoon .nav-right-tu{ width: 510px; height:160px; margin:25px 10px 0 0;}
+
